@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+margin:0px;
+padding:0px;
+border:0px;
+}
+
+#contenedor{
+background:#FFCCCC;
+width:970px;
+height:700px;
+margin:0px auto 0px auto;
+}
+
+#linea{
+background:url(../images/fondo.png);
+background-repeat:no-repeat;
+background-position:center;
+width:100%;
+height:211px;
+margin:0px auto 0px auto;
+}
+
+body{
+background:url(../images/fondo1.png);
+background-attachment:fixed;
+background-size:100%;
+}
+
+header{
+background:(WebContent/images/cat-animal-print.jpg);
+background-position:center;
+width:100%;
+height:550;
+margin:0px auto 0px auto;
+}
+
+nav{
+background:#99CCFF;
+width:970px;
+height:50px;
+border:1px solid #0099FF;
+}
+
+section{
+background:#FFFFFF;
+width:970px;
+height:400px;
+margin:0px auto 0px auto;
+}
+
+footer{
+	background:url(../images/piedepagina.png);
+	width:970px;
+	height:50px;
+	color:#fff;
+}
+
+header, nav, footer{
+width:970;
+}
+
+#menu{
+text-align:right;
+font-family:"Eccentric Std";
+}
+
+#menu ul{
+margin:0px;
+padding:0px;
+}
+
+#menu ul li{
+list-style:none;
+display:inline-block;
+padding:10px 10px;
+margin-left:-20px;
+
+}	
+
+#menu ul li a{
+color:#000000;
+font-size:24px;
+font-weight:bold;
+padding:10px 10px;
+text-decoration:none;
+}
+
+#menu ul li a:hover{
+	background-color:#0066CC;
+	color:#fff;
+
+}
+
